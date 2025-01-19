@@ -1,11 +1,14 @@
-import ToDoList from "./components/ToDoList"
+import React from 'react'
+import TodoContainer from './components/TodoContainer';
+
+
 
 function App() {
   
 
   return (
     <>
-      <ToDoList/>
+      <TodoContainer/>
     </>
   )
 }
