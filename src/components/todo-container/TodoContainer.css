@@ -1,12 +1,11 @@
 /* TodoContainer.css */
 .todoContainer {
-    padding: 20px;
-    max-width: 800px;
+    padding: 40px;
+    max-width: 900px;
     margin: 0 auto;
-    background-color: #264653; /* Header background color */
+    background-color: #1A1A40; /* Header background color */
     color: #E9C46A; /* Text color */
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   h1 {

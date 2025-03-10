@@ -20,7 +20,6 @@ function ToDoList({ tasks, addTask, handleChange, newTask, deleteTask, moveTaskU
 
     return (
         <div>
-            <h1>Todo List</h1>
             <form className="toDoList" onSubmit={addTask}>
                 <input
                     type="text"

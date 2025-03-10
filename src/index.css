@@ -11,17 +11,12 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 20px; /* Added padding around the whole app */
+  overflow: hidden; /* Prevents scrolling, keeping the app centered */
 }
 
 .App {
   text-align: center;
-}
-
-h1 {
-  color: #fff;
-  margin-bottom: 0.5rem;
-  font-size: 1.75rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 90%;
+  max-width: 1000px; /* Limit max width for large screens */
 }
