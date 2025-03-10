@@ -1,0 +1,42 @@
+/* Header.css */
+.header {
+    background-color: #264653; /* Dark header background */
+    color: #E9C46A; /* Light text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .app-name {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    color: #E9C46A;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .add-task-btn {
+    background-color: #2A9D8F;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .add-task-btn:hover {
+    background-color: #21867a;
+  }
+  
