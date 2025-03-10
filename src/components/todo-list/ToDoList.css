@@ -1,0 +1,75 @@
+/* ToDoList.css */
+.toDoList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .taskInput {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+  }
+  
+  .add-btn {
+    padding: 10px 20px;
+    background-color: #2A9D8F; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #21867a;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A6A5A; /* Darker green background */
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .taskItem p {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
+  .taskIcons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .taskIconButton {
+    background: none;
+    border: none;
+    color: #E9C46A;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .taskIconButton:hover {
+    color: #fff;
+  }
+  
+  .taskIcon {
+    font-size: 1.5rem;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  

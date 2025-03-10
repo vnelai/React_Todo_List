@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenToSquare, faTrashCan, faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { v4 as uuidv4 } from 'uuid';
+import './ToDoList.css'; // Import the CSS file
 
 function ToDoList({ tasks, addTask, handleChange, newTask, deleteTask, moveTaskUp, moveTaskDown, editTask, saveTask, toggleTaskCompletion }) {
     const [taskEdit, setTaskEdit] = useState(""); // State to hold the task editing

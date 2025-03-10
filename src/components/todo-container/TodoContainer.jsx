@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import ToDoList from './ToDoList'
+import ToDoList from '../todo-list/ToDoList'
 import { v4 as uuidv4 } from 'uuid';
-
+import './TodoContainer.css'; // Import the CSS file
 
 
 
